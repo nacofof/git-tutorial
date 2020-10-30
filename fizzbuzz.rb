@@ -8,4 +8,8 @@ for num in 1..100 do
   else
 	print "#{num} \n"
   end
+
+  if num % 7 == 0
+	print "git!\n"
+  end
 end
